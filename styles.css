@@ -439,6 +439,17 @@ body {
     .card-container {
         flex-direction: column;
     }
+	.text-card {
+        width: 16em;
+        height: 16em;
+    }
+    .text-card h4 {
+        font-size: 0.6em;
+    }
+
+    .text-card p {
+        font-size: 0.6em;
+    }
     .socials {
         font-size: 1em;
         padding-bottom: 1em;
@@ -453,4 +464,5 @@ body {
         margin-top: 1em;
     }
 }
+
 
