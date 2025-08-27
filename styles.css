@@ -78,7 +78,7 @@ body {
     background-image: linear-gradient(
         var(--black-alpha-1), 
         var(--black-alpha-2)), 
-        url("/images/hero-img.png");
+        url("/allthingsewan/images/hero-img.png");
     background-size: cover;
     max-width: 100%;
     height: auto;
@@ -453,3 +453,4 @@ body {
         margin-top: 1em;
     }
 }
+
