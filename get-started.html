@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started | Ultima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <script src="https://kit.fontawesome.com/411e9dc743.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <nav id="navbar">
+        <ul class="menu">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#music">Music</a></li>
+            <li><a href="index.html#about">About</a></li>
+        </ul>        
+        <i class="fa-solid fa-bars" id="hamburger"></i>
+    </nav>
+    <div class="form-container">
+        <div class="form">
+            <form  action="#">
+                <div class="form-section">
+                    <label for="username">Username</label><br>
+                    <input name="username" type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="form-section">
+                    <label for="email">Email Address</label><br>
+                    <input name="email" type="email" placeholder="Enter your email @" required>
+                </div>
+                <div class="form-section">
+                    <label for="pwd">Password</label><br>
+                    <input name="pwd" type="password" placeholder="Enter your password" required>
+                </div>
+                <li><a href="#">Already have an account?</a></li>
+                <div class="btn get-started-btn">
+                    <button type="submit" id="sign-up" onclick="signUp()">Sign Up</button>
+                    <button id="cancel" onclick="window.location.href='index.html'">Cancel</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <script src="https://kit.fontawesome.com/411e9dc743.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>        
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="section hero" id="home">
+        <div class="hero-contents">
+            <div class="hero-text">
+                <p>Welcome to</p>
+                <h1><span>U</span>ltima</h1>
+            </div>
+            <div class="btn home-btn">
+                <button id="start" onclick="window.location.href='get-started.html'">Get Started</button>
+                <button id="more" onclick="window.location.href='#about'">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section class="section main" id="music">
+        <div class="text">
+            <h1>Explore our vast Music Library</h1>
+            <p>Listen to your favorite albums with Ultima.</p>
+        </div>
+        <div class="main-grid">
+            <div class="grid-img one">
+                <img class="music-img" src="/images/apollo-xxi-img.png" alt="apollo-xxi-img">
+            </div>                
+            <audio class="player" src="/music/Love 2 Fast.mp3" type="audio"></audio>
+            <div class="grid-img two">
+                <img class="music-img" src="/images/blush-img.png" alt="blush-img">  
+                <audio class="player" src="/music/Abandon Me.mp3" type="audio"></audio>  
+            </div>
+            <div class="grid-img three">
+                <img class="music-img" src="/images/imaginal-disk-img.png" alt="imaginal-disk-img">   
+                <audio class="player" src="/music/Love Is Everywhere.mp3" type="audio"></audio>
+            </div>
+            <div class="grid-img four">
+                <img class="music-img" src="/images/offline-img.png" alt="offline-img">                
+                <audio class="player" src="/music/HAZARD DUTY PAY!.mp3" type="audio"></audio>
+            </div>
+            <div class="grid-img five">
+                <img class="music-img" src="/images/saturation-ii-img.png" alt="saturation-ii-img">
+                <audio class="player" src="/music/SUMMER.mp3" type="audio"></audio>
+            </div>
+        </div>
+    </section>
+    <section class="section about" id="about">
+        <div class="text">
+            <h1>About Ultima</h1>
+            <div class="card-container">
+                <div class="text-card">
+                    <h4>Discover Music Differently</h4>
+                    <p>
+                        Ultima isn’t just a music platform—it’s a journey through soundscapes that move you. 
+                        We’re dedicated to creating an experience where music isn’t just heard, but felt. 
+                        From timeless classics to groundbreaking new releases, 
+                        our curated library makes discovering your next favorite album effortless and exciting
+                    </p>
+                </div>
+                <div class="text-card">
+                    <h4>Driven By Innovation</h4>
+                    <p>
+                        We fuse sleek design with powerful tech to deliver smooth streaming, 
+                        smart search tools, and a vibrant community experience. 
+                        At Ultima, listening is just the beginning—we’re shaping the future of how music connects us.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="socials">
+            <div>            
+                <img src="/images/logo.png" alt="logo">
+            </div>
+            <a href="https://github.com/jctuiza"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.freecodecamp.org/cedrickt"><i class="fa-brands fa-free-code-camp"></i></a>
+            <a href="https://www.facebook.com/CedrickTuiza.04"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://codepen.io/jctuiza"><i class="fa-brands fa-codepen"></i></a>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Ultima 2025 - All Rights Reserved</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
